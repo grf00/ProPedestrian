@@ -4,6 +4,10 @@ Privacy protection based on specific pedestrians
 
 This project can identify specific pedestrians in images or videos, remove them from the images, and restore them. Thus achieving anonymity of specific pedestrians
 
+With the rapid development of machine learning and the expansion of personal data, various intelligent applications continue to emerge, providing significant value to individuals and society. However, sensitive personal information has raised increasingly serious privacy concerns. Ubiquitous surveillance systems capture a large volume of raw pedestrian images and videos. On one hand, this is useful for legitimate users in many scenarios, such as criminal investigations. On the other hand, these images and videos, stored locally or uploaded to cloud servers, are vulnerable to hackers, posing severe privacy risks to individuals and public safety. Raw images or videos contain sensitive information about pedestrians, such as the true identities of specific individuals or communities. Without careful protection, highly sensitive information could be leaked or misused by malicious parties.
+
+This project focuses on a deep learning-based system for privacy protection of specific pedestrians in surveillance videos. The system can identify individuals in the video and detect those who require privacy protection. The specific individuals can either be extracted from the video or uploaded separately. Once identified, the system removes the individuals from the video and seamlessly fills in the missing areas. It also implements a restoration function that can recover the removed individuals to their original positions in the video. The project enables both pedestrian anonymization and the recovery of anonymized individuals.
+
 ## Download pre-trained model
 
 1. yolov7:
