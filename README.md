@@ -38,6 +38,10 @@ In the files yolo_fastreid_lama.py、 anony_recory.py and yolov7/yolo_fastreid.p
 python yolo_fastreid_lama.py
 ```
 
+
+https://github.com/user-attachments/assets/e3bb611e-1224-40e8-b1a9-92bb2499e976
+
+
 ### Decryption process
 
 ```python
