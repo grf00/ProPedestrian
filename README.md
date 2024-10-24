@@ -5,6 +5,9 @@ Privacy protection based on specific pedestrians
 This project can identify specific pedestrians in images or videos, remove them from the images, and restore them. Thus achieving anonymity of specific pedestrians
 
 ## Download pre-trained model
+[https://github.com/user-attachments/assets/1fd2d117-6b22-4d74-a2bd-a4220f9b97bc](https://github.com/grf00/ProPedestrian/blob/main/example/input-image/demo-3.mp4)
+
+
 
 1. yolov7:
    - Download pre-trained model：https://github.com/WongKinYiu/yolov7
