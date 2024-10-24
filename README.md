@@ -7,15 +7,23 @@ This project can identify specific pedestrians in images or videos, remove them 
 ## Download pre-trained model
 
 1. yolov7:
+   - The purpose of using YOLOv7 is to detect pedestrians in complex scenes within images or videos
+   - Implementation of paper：[[2207.02696\] YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors](https://arxiv.org/abs/2207.02696)
    - Download pre-trained model：https://github.com/WongKinYiu/yolov7
    - Place it in the yolov7/weights folder
 2. lama
+   - The purpose of using lama is to erase pedestrians from images or videos and then restore the images or videos
+   - Implementation of paper：[[2109.07161\] Resolution-robust Large Mask Inpainting with Fourier Convolutions](https://arxiv.org/abs/2109.07161)
    - Download pre-trained model: https://github.com/advimman/lama
    - Place it in the lama/big-lama folder
 3. HiNet
-   - Download pre-trained model: https://github.com/TomTomTommi/HiNet
+   - The purpose of using HiNet is to conceal detected individuals in images, allowing for the removal of individuals while still enabling restoration
+   - Implementation of paper：[ICCV 2021 Open Access Repository](https://openaccess.thecvf.com/content/ICCV2021/html/Jing_HiNet_Deep_Image_Hiding_by_Invertible_Network_ICCV_2021_paper.html)
+   -  Download pre-trained model: https://github.com/TomTomTommi/HiNet
    - Place it in the HiNet/model folder
 4. Fast-reid
+   - The purpose of using Fast-reid is to match detected individuals with specific individuals that need protection, in order to identify those requiring protection in images or videos
+   - Implementation of paper：[[2006.02631\] FastReID: A Pytorch Toolbox for General Instance Re-identification](https://arxiv.org/abs/2006.02631)
    - Download pre-trained model: https://github.com/JDAI-CV/fast-reid/blob/master/MODEL_ZOO.md
    - Place it in the yolov7/fast_reid_master/model folder
 
