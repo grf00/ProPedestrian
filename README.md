@@ -27,7 +27,8 @@ In the files yolo_fastreid_lama.py、 anony_recory.py and yolov7/yolo_fastreid.p
 
 ### Encryption process
 
-You can place the image in example/input image and modify the corresponding path in yolo_fastreid_lama.py. Then run yolo_fastreid_lama.py
+1. Put the pedestrian images to be protected into /yolov7/fast-reid_master/datasets/query
+2. You can place the image in example/input image and modify the corresponding path in yolo_fastreid_lama.py. Then run yolo_fastreid_lama.py
 
 ```python
 python yolo_fastreid_lama.py
@@ -38,5 +39,6 @@ python yolo_fastreid_lama.py
 ```python
 python anony_recory.py
 ```
+
 
 
