@@ -4,8 +4,7 @@ Privacy protection based on specific pedestrians
 
 This project can identify specific pedestrians in images or videos, remove them from the images, and restore them. Thus achieving anonymity of specific pedestrians
 
-
-https://github.com/user-attachments/assets/601ad3c3-b522-4164-8bbf-40173dcfc18b
+<video src="example\demo-3.mp4"></video>
 
 
 
