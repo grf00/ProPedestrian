@@ -21,6 +21,10 @@ This project can identify specific pedestrians in images or videos, remove them 
 
 ## test
 
+### Profile Path
+
+In the files yolo_fastreid_lama.py、 anony_recory.py and yolov7/yolo_fastreid.py, the.../ replace with one's own actual work path
+
 ### Encryption process
 
 You can place the image in example/input image and modify the corresponding path in yolo_fastreid_lama.py. Then run yolo_fastreid_lama.py
