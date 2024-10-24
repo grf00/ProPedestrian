@@ -4,10 +4,6 @@ Privacy protection based on specific pedestrians
 
 This project can identify specific pedestrians in images or videos, remove them from the images, and restore them. Thus achieving anonymity of specific pedestrians
 
-<video src="example/demo-3.mp4"></video>
-
-
-
 ## Download pre-trained model
 
 1. yolov7:
@@ -47,6 +43,9 @@ https://github.com/user-attachments/assets/e3bb611e-1224-40e8-b1a9-92bb2499e976
 ```python
 python anony_recory.py
 ```
+
+https://github.com/user-attachments/assets/220b4718-b688-4f6a-a523-59220f925588
+
 
 
 
