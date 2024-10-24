@@ -1,0 +1,9 @@
+_BASE_: ../Base-bagtricks.yml
+
+DATASETS:
+  NAMES: ("Market1501",)
+  TESTS: ("Market1501",)
+
+OUTPUT_DIR: logs/market1501/bagtricks_R50
+MODEL:
+  WEIGHTS: yolov7/fast_reid_master/model/market_bot_R50.pth
