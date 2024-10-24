@@ -11,6 +11,10 @@ This project can identify specific pedestrians in images or videos, remove them 
 
 1. yolov7:
    - Download pre-trained model：https://github.com/WongKinYiu/yolov7
+
+https://github.com/user-attachments/assets/81ca4062-5cad-454c-8cd6-e3cf853cd6a5
+
+
    - Place it in the yolov7/weights folder
 2. lama
    - Download pre-trained model: https://github.com/advimman/lama
