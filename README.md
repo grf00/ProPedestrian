@@ -37,6 +37,17 @@ This project focuses on a deep learning-based system for privacy protection of s
 
 In the files yolo_fastreid_lama.py、 anony_recory.py and yolov7/yolo_fastreid.py, the.../ replace with one's own actual work path
 
+### Select protected object
+
+Run the image_cut.exe file, select the pedestrians to be protected from the original video or image, and capture them. The captured images will be saved to the query folder of the pedestrian re identification module. You can select one or more pedestrians from the picture to capture. After selecting the clipping area, press the ENTER key to save. To exit, do not select any area. Press the ENTER key to exit.
+
+```python
+python image_cut.py
+```
+
+![image](https://github.com/user-attachments/assets/4216e7ee-a7e1-4609-ab99-0840db1f721c)
+
+
 ### Encryption process
 
 1. Put the pedestrian images to be protected into /yolov7/fast-reid_master/datasets/query
