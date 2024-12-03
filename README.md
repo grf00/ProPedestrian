@@ -56,10 +56,18 @@ python image_cut.py
 ```python
 python yolo_fastreid_lama.py
 ```
+#### Single person scene
+
+https://github.com/user-attachments/assets/8519d0e8-588b-46c9-950d-fe0a5f112266
+
+#### Multiplayer scene
+
+https://github.com/user-attachments/assets/761db510-e56a-4527-887c-7cfde7ad3f4f
 
 
-https://github.com/user-attachments/assets/e3bb611e-1224-40e8-b1a9-92bb2499e976
+#### Personnel intensive scene
 
+https://github.com/user-attachments/assets/d9b4977e-f65f-43fe-96d2-ef0fd4cae5db
 
 ### Decryption process
 
@@ -67,6 +75,7 @@ https://github.com/user-attachments/assets/e3bb611e-1224-40e8-b1a9-92bb2499e976
 python anony_recory.py
 ```
 
+#### Single person scene
 https://github.com/user-attachments/assets/220b4718-b688-4f6a-a523-59220f925588
 
 
