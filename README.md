@@ -8,6 +8,10 @@ With the rapid development of machine learning and the expansion of personal dat
 
 This project focuses on a deep learning-based system for privacy protection of specific pedestrians in surveillance videos. The system can identify individuals in the video and detect those who require privacy protection. The specific individuals can either be extracted from the video or uploaded separately. Once identified, the system removes the individuals from the video and seamlessly fills in the missing areas. It also implements a restoration function that can recover the removed individuals to their original positions in the video. The project enables both pedestrian anonymization and the recovery of anonymized individuals.
 
+
+![图片2](https://github.com/user-attachments/assets/1c00a131-7989-4e0b-afec-78f4da3e5d44)
+
+
 ## Download pre-trained model
 
 1. yolov7:
