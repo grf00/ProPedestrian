@@ -79,8 +79,10 @@ python anony_recory.py
 
 #### Single person scene
 
-https://github.com/user-attachments/assets/a7ee88a2-9da6-48ff-a847-22aef987fd94
+https://github.com/user-attachments/assets/4690694c-b1cd-41ed-a4c9-f16e92495954
 
+#### Multiplayer scene
+The feature is expected to be updated next time.
 
 #### Personnel intensive scene
 
