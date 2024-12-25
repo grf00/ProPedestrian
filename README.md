@@ -1,4 +1,4 @@
-![propic](https://github.com/grf00/ProPedestrian/blob/main/example/input-image/propic.png)#ProPedestrian
+| ![ProPedestrian Image](https://github.com/grf00/ProPedestrian/blob/main/example/input-image/propic.png) | **ProPedestrian**  |
 
 Privacy protection based on specific pedestrians
 
