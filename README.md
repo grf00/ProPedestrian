@@ -29,7 +29,20 @@ This project focuses on a deep learning-based system for privacy protection of s
    - Implementation of paper：[[2006.02631\] FastReID: A Pytorch Toolbox for General Instance Re-identification](https://arxiv.org/abs/2006.02631)
    - Download pre-trained model: https://github.com/JDAI-CV/fast-reid/blob/master/MODEL_ZOO.md
    - Place it in the yolov7/fast_reid_master/model folder
+## UI界面
 
+The UI interface includes four functions: screenshot, detection, encryption, and decryption
+
+```python
+python main.py
+```
+
+1. Click the detection button, upload the image, select the pedestrian you want to protect, and save it by default in the yolov7/fast-reid_master/datasets/query folder
+2. Click the detection button to jump to the detection interface, upload the folder, and you can detect the pedestrian position in the image and save it by default in the runs/detect3/exp folder
+3. Click the encryption button to jump to the encryption interface, upload the folder, and you can protect the pedestrians to be protected in the picture,and save it by default in the example/lama_s_pic folder
+4. Click the decryption button to jump to the decryption interface, upload the folder, and you can restore the anonymized image,and save it by default in the example/cover_sec_rec folder
+
+![检测](https://github.com/grf00/ProPedestrian/blob/main/example/input-image/%E6%A3%80%E6%B5%8B.jpg)
 ## test
 
 ### Profile Path
