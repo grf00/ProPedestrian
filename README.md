@@ -43,6 +43,8 @@ python main.py
 4. Click the decryption button to jump to the decryption interface, upload the folder, and you can restore the anonymized image,and save it by default in the example/cover_sec_rec folder
 
 ![检测](https://github.com/grf00/ProPedestrian/blob/main/example/input-image/%E6%A3%80%E6%B5%8B.jpg)
+## Packaging plan
+Subsequent updates
 ## test
 
 ### Profile Path
