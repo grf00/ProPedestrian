@@ -1,4 +1,4 @@
-![propic](https://github.com/user-attachments/assets/81bb2df3-86a9-4a61-82a2-e0fb3547c278)#ProPedestrian
+![propic](https://github.com/user-attachments/assets/81bb2df3-86a9-4a61-82a2-e0fb3547c278,width=100 height=100)#ProPedestrian
 
 Privacy protection based on specific pedestrians
 
