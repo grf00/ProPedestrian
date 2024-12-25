@@ -1,4 +1,4 @@
-![QQ图片20240603204957](https://github.com/user-attachments/assets/a9558609-fe41-49a7-9407-97125206e347)#ProPedestrian
+![propic](https://github.com/user-attachments/assets/81bb2df3-86a9-4a61-82a2-e0fb3547c278)#ProPedestrian
 
 Privacy protection based on specific pedestrians
 
