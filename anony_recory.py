@@ -7,7 +7,7 @@ import torchvision
 import torchvision.transforms as T
 from PIL import Image
 
-# 确保所有需要的模块都在正确的路径下
+# 添加模块搜索路径
 sys.path.append(".")
 sys.path.append("/home/lhb/grf")
 sys.path.append("/home/lhb/grf/lama")
@@ -17,12 +17,20 @@ sys.path.append("/home/lhb/grf/HiNet")
 sys.path.append("/home/lhb/grf/yolov7")
 sys.path.append("yolov7/fast_reid_master")
 
-time_interval = 1  # 转视频帧间隔
 from HiNet.steganography import Steganography
 from HiNet import config as con
 
 class RecoverImages:
+    """
+    A class for recovering images and generating videos from steganographic images.
+    """
     def __init__(self, fps=30, im_dir="example/lama_s_pic"):
+        """
+        Initialize the RecoverImages class.
+
+        :param fps: Frames per second for the output video.
+        :param im_dir: Directory containing the input images.
+        """
         self.im_dir = im_dir
         self.recovered_cover_path = "example/cover-rec"
         self.recovered_secret_path = "example/secret-rec"
@@ -35,6 +43,11 @@ class RecoverImages:
 
     @staticmethod
     def remove_files(path):
+        """
+        Remove all files with specific extensions from a directory.
+
+        :param path: Directory path to remove files from.
+        """
         if not os.path.exists(path):
             print(f"Path {path} does not exist.")
             return
@@ -48,6 +61,12 @@ class RecoverImages:
 
     @staticmethod
     def read_txt(file_path):
+        """
+        Read coordinates from a text file.
+
+        :param file_path: Path to the text file containing coordinates.
+        :return: A tuple of (x1, y1, x2, y2) coordinates.
+        """
         try:
             data = pd.read_csv(file_path, sep=' ', names=["x1", "y1", "x2", "y2"])
             return data.x1.iloc[0], data.y1.iloc[0], data.x2.iloc[0], data.y2.iloc[0]
@@ -56,6 +75,9 @@ class RecoverImages:
             return None
 
     def frame_to_video(self):
+        """
+        Generate a video from a sequence of images.
+        """
         im_list = sorted(os.listdir(self.cover_s_r_path))
         if not im_list:
             print("No images found to create video.")
@@ -76,6 +98,9 @@ class RecoverImages:
         print('Video generation completed.')
 
     def recover_images(self):
+        """
+        Recover the cover and secret images from steganographic images.
+        """
         preprocess = T.Compose([
             T.CenterCrop(con.cropsize_val),
             T.ToTensor(),
@@ -95,6 +120,9 @@ class RecoverImages:
             print(f'Recovered image {num}')
 
     def combine_images(self):
+        """
+        Combine recovered secret images with cover images based on coordinates.
+        """
         secret_list = sorted(os.listdir(self.recovered_secret_path))
         cover_list = sorted(os.listdir(self.im_dir))
 
@@ -117,6 +145,9 @@ class RecoverImages:
             cov_pil.save(final_path)
 
     def process(self):
+        """
+        The main processing function that orchestrates the recovery and video generation.
+        """
         self.remove_files(self.recovered_cover_path)
         self.remove_files(self.recovered_secret_path)
         self.remove_files(self.cover_s_r_path)
