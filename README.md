@@ -1,5 +1,4 @@
-| ![ProPedestrian Image](https://github.com/grf00/ProPedestrian/blob/main/example/input-image/propic.png) | **ProPedestrian**  |
-
+![proppp](https://github.com/grf00/ProPedestrian/blob/main/example/input-image/proppp.png)
 Privacy protection based on specific pedestrians
 
 This project can identify specific pedestrians in images or videos, remove them from the images, and restore them. Thus achieving anonymity of specific pedestrians
