@@ -7,6 +7,13 @@ This project focuses on a deep learning-based system for privacy protection of s
 
 ![图片3](https://github.com/user-attachments/assets/5915495d-1ffa-4e29-b152-df02da4ff383)
 
+## Quick start
+```python
+conda create -n ProPedestrain python=3.8
+conda activate ProPedestrain
+pip install -r requirements.txt
+python main.py
+```
 ## Download pre-trained model
 
 1. yolov7:
@@ -47,7 +54,7 @@ python main.py
 ```python
 pyinstaller -D -w --add-data="./HiNet/*;./HiNet" --add-data="./lama/*;./lama" --add-data="./yolov7/*;./yolov7" main.py
 ```
-## test
+## Test
 
 ### Profile Path
 
