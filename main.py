@@ -15,7 +15,7 @@ sys.path.append("lama/models")
 sys.path.append("reidstrong")
 sys.path.append("yolov7/fast_reid_master")
 
-class PrivacyProtectionApp(QMainWindow):
+class PrivacyProtectionApp2(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("隐私保护应用")
@@ -449,6 +449,6 @@ class PrivacyProtectionApp(QMainWindow):
             QMessageBox.critical(self, "错误", f"解密过程中发生错误: {str(e)}")
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    window = PrivacyProtectionApp()
+    window = PrivacyProtectionApp2()
     window.show()
     sys.exit(app.exec_())
