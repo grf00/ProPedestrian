@@ -44,7 +44,9 @@ python main.py
 
 ![检测](https://github.com/grf00/ProPedestrian/blob/main/example/input-image/%E6%A3%80%E6%B5%8B.jpg)
 ## Packaging plan
-Subsequent updates
+```python
+pyinstaller -D -w --add-data="./HiNet/*;./HiNet" --add-data="./lama/*;./lama" --add-data="./yolov7/*;./yolov7" main.py
+```
 ## test
 
 ### Profile Path
