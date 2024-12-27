@@ -36,7 +36,7 @@ python main.py
    - Implementation of paper：[[2006.02631\] FastReID: A Pytorch Toolbox for General Instance Re-identification](https://arxiv.org/abs/2006.02631)
    - Download pre-trained model: https://github.com/JDAI-CV/fast-reid/blob/master/MODEL_ZOO.md
    - Place it in the yolov7/fast_reid_master/model folder
-## UI界面
+## UI
 
 The UI interface includes four functions: screenshot, detection, encryption, and decryption
 
